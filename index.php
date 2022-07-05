@@ -35,6 +35,11 @@
     <form action="index.php" method="POST">
         <input name="input" type="text">
     </form>
+    <p>
+        <ul>
+            <a href="/php/12-llamadas.php">Llamadas</a>
+        </ul>
+    </p>
 
 </body>
 </html>
