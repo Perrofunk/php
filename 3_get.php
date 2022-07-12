@@ -1,4 +1,6 @@
 <?php
+$paginaActual="GET";
+include "C:\Users\SandroSanders\Documents\GitHub\sistemas-digitales\header.php";
 // se recepciona lo que se envia por el metodo post
 if ($_GET) {
 

@@ -1,5 +1,7 @@
 <?php
-
+$paginaActual="Operadores Relacionales";
+include "C:\Users\SandroSanders\Documents\GitHub\sistemas-digitales\header.php";
+if ($_POST){
     $valorA=$_POST["valorA"];
     $valorB=$_POST["valorB"];
 
@@ -9,7 +11,7 @@
     else {
         echo "los valores no son iguales";
     }
-
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

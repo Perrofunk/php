@@ -1,5 +1,6 @@
 <?php
-
+$paginaActual="Switch: Ejercicio 2";
+include "C:\Users\SandroSanders\Documents\GitHub\sistemas-digitales\header.php";
     if ($_POST) {
 
         $dia=$_POST["dia"];

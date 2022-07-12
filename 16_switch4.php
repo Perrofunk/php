@@ -1,5 +1,7 @@
 <?php
-
+$paginaActual="Switch: Ejercicio 4";
+include "C:\Users\SandroSanders\Documents\GitHub\sistemas-digitales\header.php";
+if($_POST){
 $nota1=$_POST["nota1"];
 $nota2=$_POST["nota2"];
 $promedio=($nota1+$nota2)/2;
@@ -24,7 +26,7 @@ switch (true) {
     echo"ni te anotaste en la escuela capo";
         break;
 }
-
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -1,5 +1,7 @@
 <?php
-
+$paginaActual="Promedio";
+include "C:\Users\SandroSanders\Documents\GitHub\sistemas-digitales\header.php";
+if ($_POST){
     $Nota1=$_POST["Nota1"];
     $Nota2=$_POST["Nota2"];
     $Nota3=$_POST["Nota3"];
@@ -46,6 +48,7 @@ switch ($nota) {
     default:
         echo "pone bien los numeros gil";
         break;
+}
 }
 ?>
 <!DOCTYPE html>

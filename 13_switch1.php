@@ -1,5 +1,6 @@
 <?php
-
+$paginaActual="Switch: Ejercicio 1";
+include "C:\Users\SandroSanders\Documents\GitHub\sistemas-digitales\header.php";
     if ($_POST) {
 
         $valorA=$_POST['num1'];

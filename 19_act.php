@@ -1,5 +1,6 @@
 <?php
-
+$paginaActual="Loops: Actividad";
+include "C:\Users\SandroSanders\Documents\GitHub\sistemas-digitales\header.php";
     if ($_POST) {
 
         $mul=$_POST["valor1"];
@@ -24,8 +25,10 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text" name="valor1">
-    <input type="text" name="valor2">
-    <input type="button" value="calcular">
+    <form method="POST" target="_self">
+        <input type="text" name="valor1">
+        <input type="text" name="valor2">
+        <input type="submit" value="calcular">
+    </form>
 </body>
 </html>
